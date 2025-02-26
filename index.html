@@ -1,0 +1,839 @@
+<!doctype html>
+<html class="no-js" lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Application Funnel </title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- CSS here -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/animate.min.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+      <link rel="stylesheet" href="assets/css/backtotop.css">
+      <link rel="stylesheet" href="assets/css/meanmenu.css">
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <link rel="stylesheet" href="assets/css/fancy.css">
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/default.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body>
+      <!-- back-to-top-start -->
+      <div class="progress-wrap active-progress">
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 273.713px;"></path>
+         </svg>
+      </div>
+      <!-- back-to-top-end -->
+      <!-- preloader start -->
+      <div id="preloader">
+         <div class="preloader d-none">
+            <span></span>
+            <span></span>
+         </div>
+      </div>
+      <!-- preloader end -->
+      <!-- sidebar area start -->
+      <div class="sidebar__area">
+         <div class="sidebar__wrapper">
+            <div class="sidebar__close">
+               <button class="sidebar__close-btn" id="sidebar__close-btn">
+               <i class="fas fa-times"></i>
+               </button>
+            </div>
+            <div class="sidebar__content">
+               <div class="sidebar__logo mb-40">
+                  <a href="index.html">
+                  <img src="assets/img/logo.png" alt="logo" width="100">
+                  </a>
+               </div>
+               <div class="sidebar__search mb-25">
+                  <form action="#">
+                     <input type="text" placeholder="What are you searching for?">
+                     <button type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+               </div>
+               <div class="mobile-menu fix"></div>
+               <div class="sidebar__contact mt-30 mb-20">
+                  <h4>Contact Info</h4>
+                  <ul>
+                     <li class="d-flex align-items-center">
+                        <div class="sidebar__contact-icon mr-15">
+                           <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="sidebar__contact-text">
+                           <a target="_blank" href="https://maps.app.goo.gl/8cPU11UzjbcEwtpq6">Halpern House, 1-2 Hampshire Terrace, Portsmouth, PO1 2Q, UK</a>
+                        </div>
+                     </li>
+                     <li class="d-flex align-items-center">
+                        <div class="sidebar__contact-icon mr-15">
+                           <i class="far fa-phone"></i>
+                        </div>
+                        <div class="sidebar__contact-text">
+                           <a href="tel:+44 (0) 238 052 8262">+44 (0) 238 052 8262</a>
+                        </div>
+                     </li>
+                     <li class="d-flex align-items-center">
+                        <div class="sidebar__contact-icon mr-15">
+                           <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="sidebar__contact-text">
+                           <a href="mailto:hello@bytestore.xyz"><span class="__cf_email__">hello@bytestore.xyz</span></a>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="sidebar__social">
+                  <ul>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- sidebar area end -->
+      <header class="header-transparent header-transparent-3">
+         <div class="header-sticky  menu-area">
+            <div class="container">
+               <div class="menu-bg">
+                  <div class="row align-items-center">
+                     <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                        <div class="logo">
+                           <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                        </div>
+                     </div>
+                     <div class="col-xl-10 col-lg-10 col-md-9 col-6">
+                        <div class="side-menu-icon d-lg-none text-end">
+                           <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i class="fas fa-bars"></i></a>
+                        </div>
+                  
+                        <div class="main-menu f-right">
+                           
+                           <nav id="mobile-menu">
+                              <ul>
+                                 <li><a href="index.html" class="active">Home</a></li>
+                                 <li><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">Claim my website</a> </li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="pt-50">
+
+         <section class=main-wrappper>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="video-wrapper">
+                            <video playsinline="true" width="100%" style="object-fit: cover;" autoplay="true" muted="true" loop="true" preload="auto" controls="1"><source src="assets/img/videoplayback.mp4" type="video/mp4"></video>
+                        </div>
+                        <div class="text-center mt-4">
+                         
+                           <a class="s-button" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">Claim my website</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="img-wrapper">
+                           <img style="width: 636px; height: 698px;" src="assets/img/paper.png" alt="paper">
+                        </div>
+                        <div class="text-center mt-4">
+                           <a href="javascript:void(0);"  class="s-button"  data-bs-toggle="modal"
+                           data-bs-target="#exampleModal">
+                               <span class="btn-title">Download </span>
+                           </a>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="row pt-3">
+                  <div class="col-md-12 col-lg-8 offset-lg-2 my-4">
+                     <div class="website-wrapper">
+                         <h2>Claim your FREE Website</h2>
+                         <p class="pb-3">Leave your details below for a daily chance to claim a free website. </p>
+                         <form>
+                             <div class="row mb-3">
+                                 <div class="col">
+                                     <label for="FirstName">First Name</label>
+                                   <input type="text" class="form-control" id="FirstName" placeholder="Jhon">
+                                 </div>
+                                 <div class="col">
+                                     <label for="Lastname">Last Name</label>
+                                   <input type="text" class="form-control" id="Lastname" placeholder="Doe">
+                                 </div>
+                               </div>
+                               <div class="row  mb-3">
+                                 <div class="col">
+                                     <label for="Email">Email*</label>
+                                   <input type="email" class="form-control" id="Email" required placeholder="example@domain.com">
+                                 </div>
+                                 <div class="col">
+                                     <label for="Phone">Phone</label>
+                                   <input type="number" class="form-control">
+                                 </div>
+                               </div>
+                               <div class="row  mb-3">
+                                 <div class="col-12">
+                                     <label for="BusinessName">Business Name</label>
+                                   <input type="text" class="form-control" id="BusinessName">
+                                 </div>
+                               </div>
+                               <div class="row  mb-3">
+                                 <div class="col-12">
+                                     <label for="message">Tell us a little about your business</label>
+                                     <textarea class="form-control" id="message" placeholder="Your Question or Comment"></textarea>
+                                 </div>
+                               </div>
+                               <div class="row  mb-3">
+                                 <div class="col-12">
+                                     <h5 class="page-title pb-2">Which hosting (pcm) package would you like for your FREE website *</h5>
+                                     <div class="custom_radio-item">
+                                         <label class="custom_radio">£ 29.99 - Basic - Hosting and Updates Only
+                                             <input type="radio" checked="checked" name="radio">
+                                             <span class="checkmark"></span>
+                                           </label>
+                                           <label class="custom_radio">£149.99 – Growth: This package includes hosting, plus one SEO-optimised blog post written and published on your website to increase your traffic, along with 3 hours of dedicated SEO support per month.
+                                             <input type="radio" name="radio">
+                                             <span class="checkmark"></span>
+                                           </label>
+                                           <label class="custom_radio">£249.99 – Accelerate: This package provides premium hosting, three SEO-optimised blog posts written and published on your website to boost your traffic, alongside 5 hours of dedicated monthly SEO support.
+                                             <input type="radio" name="radio">
+                                             <span class="checkmark"></span>
+                                           </label>
+                                     </div>
+                                 </div>
+                               </div>
+                               <div class="row">
+                                 <div class="col-12">
+                                     <div class="text-center mb-3">
+                                       <a class="s-button" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">Claim my website</a>
+                                     </div>
+                                 </div>
+                               </div>
+                             
+                           </form>
+                     </div>
+                 </div>
+                    <div class="col-md-12">
+                        <div class="content-wrapper">
+                            <h2>Why do I have to pay for hosting?</h2>
+                            <div class="cont-history">
+                                <p>Even with a <b>Free Website build</b>, Free Website build, Websites need a place to live, and that’s what hosting is – You cannot have a website without it living somewhere! </p>
+    
+                                <p>   Your website will live on our dedicated servers and we will also cover your monthly technical updates as an additional service.</p>
+                                    
+                                <p>   The website build and design is completely free – our time spent on building your website doesn’t cost you a penny.</p>
+                                    
+                                <p>    Our lowest hosting charge is just £28.95 per month. That’s only £347.40 per year. To put this into prospective a 5 page website would usually cost £549 upfront to purchase!</p>
+                                    
+                                  <p>  If you’d rather pay your hosting annually, we can set you up with this option too.</p>
+                            </div>
+                        </div>
+                        <div class="content-wrapper">
+                            <h2>Why do I have to pay for hosting?</h2>
+                            <div class="cont-history">
+                                <p>Even with a <b>Free Website build</b>, Free Website build, Websites need a place to live, and that’s what hosting is – You cannot have a website without it living somewhere! </p>
+    
+                                <p>   Your website will live on our dedicated servers and we will also cover your monthly technical updates as an additional service.</p>
+                                    
+                                <p>   The website build and design is completely free – our time spent on building your website doesn’t cost you a penny.</p>
+                                    
+                                <p>    Our lowest hosting charge is just £28.95 per month. That’s only £347.40 per year. To put this into prospective a 5 page website would usually cost £549 upfront to purchase!</p>
+                                    
+                                  <p>  If you’d rather pay your hosting annually, we can set you up with this option too.</p>
+                            </div>
+                        </div>
+                        <div class="form-wrapper shadow  bg-body">
+                            <h3 class="form-title text-capitalize">
+                                want to work with us? Drop us your email address and will send you our latest case studies
+                            </h3>
+                            <p>Sometimes every project needs a little inspiration</p>
+                            <form action="">
+                                <div class="form-flex">
+                                    <div class="row g-4">
+                                        <div class="col-sm-9">
+                                          <input type="email"  placeholder="Email *" required>
+                                        </div>
+                                        <div class="col-sm-3">
+                                          <button type="submit" class="send-btn">
+                                            <span>Send</span>
+                                            <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+           <!-- Slider Section -->
+           <section class="sponsorship mb-50">
+            <div class="container">
+               <div class="content-box text-center">
+                  <div class="sec-title mb-0">
+                     <h2>Sponsorship:The Opportunity</h2>
+                     <h5 class="sec-sub-title mt-3">What Sets Us Apart</h5>
+                 </div>
+               </div>
+              
+               <div class="row mt-35 ">
+                  <div class="col-md-6 mb-3">
+                     <ul class="accordion-box">
+                        <li class="accordion block  active-block ">
+                           <div class="acc-btn  active ">
+                              What exactly is web hosting, and why does it incur a fee?
+
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content  current ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Why is hosting charged? Even if you choose our Free Website Build, every website needs a home – that's exactly what hosting provides. Without hosting, your site simply wouldn’t exist. <br>
+
+                                       Your website will reside on our dedicated servers, and we include monthly technical updates as an extra service. <br>
+                                       
+                                       While the website build and design are completely free – you won’t pay a dime for our work – hosting remains essential. <br>
+                                       
+                                       Our most affordable Cloud hosting package starts at only £30.00 per month, which works out to just £360.00 per year. For an award-winning team to manage your business website at such a competitive rate, it’s an easy decision. <br>
+                                       
+                                       If you prefer to pay annually, that option is available too.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              What if I need help with SEO but can’t afford it?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>We offer an excellent hosting package that includes one fully SEO-ready blog written by our team based on keyword research for your business and industry. This is available for £129.99 + VAT per month.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Who owns the website?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Yes, your Free Website belongs to you! We act as your service provider, but the website remains your property.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              What if I need help managing or fixing my website?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Our goal is for you to manage your website confidently. If you need quick fixes, we'll gladly help you at no extra charge. For bigger tasks requiring significant staff time, we charge an hourly rate. But don't worry—we'll provide training so you can easily manage your website yourself without extra costs! Our dynamic admin panel is dedicated to support you at all time.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Will people see my website on Google?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Absolutely! Your website is built to be SEO-friendly, making it easier for customers to find you online. Good SEO is about ongoing effort and planning—we'll give you advice on what steps to take, or you can upgrade to one of our advanced SEO packages for even stronger results.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Will my website rank highly on Google right away?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>SEO takes time and consistency. While your new site will be SEO-friendly from day one, ranking high on Google is a longer-term process. We offer more advanced SEO packages to give you a comprehensive strategy, ensuring your website climbs Google’s rankings over time.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Why should I use mainstream programming languages like Laravel, Java, Python, Django, or .NET?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Mainstream programming languages offer strong security, high performance, and flexibility, making your website or app scalable and valuable for long-term growth.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Will building site with you save me money in the long run?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Yes! Although we're providing the website free of charge, this doesn't mean its value is low. In fact, using mainstream programming languages for your website ensures better long-term performance, lower ongoing costs, and significantly increases your business's overall value, despite a potentially higher initial investment.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Is your site safer than website builders like WordPress or Wix? 
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Definitely! Websites built with us have fewer security risks. Research shows 85% of hacked websites used simpler platforms like WordPress.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              How do site build with you improve my business value?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Using mainstream programming languages means you fully own your digital products, making them attractive to investors or buyers, significantly increasing your business’s market value.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Can you make my website faster and attract more customers?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Yes! Businesses switching from simpler platforms to mainstream languages have reported websites loading up to 47% faster, resulting in 30% more sales, according to industry studies.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Can you make my website faster and attract more customers?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>Yes! Businesses switching from simpler platforms to mainstream languages have reported websites loading up to 47% faster, resulting in 30% more sales, according to industry studies.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="accordion block ">
+                           <div class="acc-btn ">
+                              Why is there a 24-month minimum commitment?
+                              <div class="icon fa fa-plus"></div>
+                           </div>
+                           <div class="acc-content ">
+                              <div class="content">
+                                 <div class="text">
+                                    <p>We understand a commitment can feel like a big step, but here's why we ask for it: We provide this offer to help as many small businesses as possible build valuable, market-ready digital assets. Creating these websites involves considerable effort, resources, and time. A minimum commitment helps us sustainably continue this support. After 24 months, your contract continues with our standard cancellation policy, requiring just two months' notice if you ever wish to cancel.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        
+                     </ul>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="faq-img">
+                       <img src="assets/img/oppurtunities.jpg" alt="oppurtunities">
+                    </div>
+                  </div>
+               </div>
+               <div class="text-center mt-3">
+                  <a href="javascript:void(0);" class="theme-btn btn-style-one">
+                     <span class="btn-title">Call to action</span>
+                  </a>
+                  <a href="javascript:void(0);" class="theme-btn btn-style-one ms-2">
+                     <span class="btn-title">Claim my website</span>
+                  </a>
+               </div>
+            </div>
+         </section>
+         <!-- Slider Section -->
+         <section class="portfolio" id="portfolio">
+            <div class="container">
+               <div class="row align-items-center justify-content-center">
+                  <div class="col-md-8 col-lg-6">
+                     <div class="service-content text-center">
+                        <h3>Our Portfolio</h3>
+                        <p>Explore our impressive portfolio and witness the transformation we can bring to your business.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row pt-50 pb-40 justify-content-center">
+                  <div class="col-md-3 mb-3">
+                     <div class="portfolioitem position-relative text-center">
+                        <div class="portfolio-img">
+                           <img src="assets/img/user-66d567d12fe03.png " alt="service">
+                        </div>
+                        <div class="portfolio-content">
+                           <div class="portfolio-modal">
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-primary" style="background: #114b6e; color: #ffffff" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                              See more +
+                              </button>
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <p>5 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬</p>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                       </div>
+                                       <div class="modal-body">
+                                          <img src="assets/img/user-66d567d12fe03.png " alt="">
+                                          <h5 class="modal-title pt-3 pb-1" id="exampleModalLabel">
+                                             𝐒𝐚𝐥𝐞𝐬 𝐓𝐞𝐚𝐦𝐬 𝐅𝐚𝐜𝐞 𝐢𝐧 𝐓𝐨𝐝𝐚𝐲'𝐬 𝐋𝐚𝐧𝐝𝐬𝐜𝐚𝐩𝐞
+                                          </h5>
+                                          <p></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Most sales teams are experiencing a number of challenges due to the rapid changing face of digital environment. Here are five key obstacles they are tackling:</span></span></span></span></p>
+                                          <p><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">•Mastering Virtual Selling: </span></span></span></span></strong></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">As we learned, remote interaction has become inevitable over the past several years, so sales professionals urgently have to learn new tools and ways to reach out to their prospects and make them agree to make a purchase.</span></span></span></span></p>
+                                          <p><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">•Creating Real Connections in a Digital World: </span></span></span></span></strong></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Authentic relationships in online environments therefore need creativity and compassion. Don’t underestimate the importance of trust and rapport when selling to prospects so the former has to be developed.</span></span></span></span></p>
+                                          <p><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">•Navigating Data Overload: </span></span></span></span></strong></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">This and many more are some of the cases that make the information flood that is available today overwhelming. Salespeople using data require the information that makes specific, effective conversations possible.</span></span></span></span></p>
+                                          <p><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">•Combining Automation with Personalised Service: </span></span></span></span></strong></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">There is no doubt that automated sales leads enhance efficiency in undertaking their responsibility but the salespersons cannot be fully automated in handling their leads to a point where it does not seem they are dealing directly with a person.</span></span></span></span></p>
+                                          <p><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">•Adapting to a Rapidly Changing Market: </span></span></span></span></strong></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">With market situations changing at the blink of an eye, it becomes a crucial need for sales operations. </span></span></span></span></p>
+                                          <p></p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <h5 class="pt-2 pb-1">5 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬 </h5>
+                           <p>𝐒𝐚𝐥𝐞𝐬 𝐓𝐞𝐚𝐦𝐬 𝐅𝐚𝐜𝐞 𝐢𝐧 𝐓𝐨𝐝𝐚𝐲'𝐬 𝐋𝐚𝐧𝐝𝐬𝐜𝐚𝐩𝐞</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                     <div class="portfolioitem position-relative text-center">
+                        <div class="portfolio-img">
+                           <img src="assets/img/user-66d569d08d357.png " alt="service">
+                        </div>
+                        <div class="portfolio-content">
+                           <div class="portfolio-modal">
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-primary" style="background: #114b6e; color: #ffffff" data-bs-toggle="modal" data-bs-target="#exampleModal28">
+                              See more +
+                              </button>
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <p>Client Testimonials</p>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                       </div>
+                                       <div class="modal-body">
+                                          <img src="assets/img/user-66d569d08d357.png " alt="">
+                                          <h5 class="modal-title pt-3 pb-1" id="exampleModalLabel">
+                                             A Leader Who Delivers Results
+                                          </h5>
+                                          <p></p>
+                                          <div>
+                                             <p><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Client Testimonial: Achieving Outstanding Results</span></span></span></span></strong></p>
+                                             <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">“I have had the great experience of working with Chris when we were both at Bayer Consumer Healthcare and can say that he is one of the best commercial/operations strategic thinkers out there. He is quite supportive of his direct reports and fully engages with other teams to drive money-making and sustainable results. Chris not only knows what goals are pursued, but is often able to meet or surpass corporate, functional, and customer or channel targets. Chris is a pragmatic and motivating manager, who can boost the success of any enterprise he becomes involved with.”</span></span></span></span></p>
+                                             <ul>
+                                                <li><strong><em><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Julian Bush, Sales Director UK &amp; IRE</span></span></span></span></em></strong></li>
+                                             </ul>
+                                             <p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:&quot;Times New Roman&quot;,serif">Coastal Tide management has a distinct privilege of working with a director like Chris Silverwood, who has delivered time and again. If you are desirous of geared-up and inspired results for your company, we ought to begin and take the initial step to success.</span></span></span></span></p>
+                                          </div>
+                                          <p></p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <h5 class="pt-2 pb-1">Client Testimonials </h5>
+                           <p>A Leader Who Delivers Results</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                     <div class="portfolioitem position-relative text-center">
+                        <div class="portfolio-img">
+                           <img src="assets/img/user-66d56bd6046c0.png " alt="service">
+                        </div>
+                        <div class="portfolio-content">
+                           <div class="portfolio-modal">
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-primary" style="background: #114b6e; color: #ffffff" data-bs-toggle="modal" data-bs-target="#exampleModal32">
+                              See more +
+                              </button>
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <p>Ready to Transform Your Business? 🚀</p>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                       </div>
+                                       <div class="modal-body">
+                                          <img src="assets/img/user-66d56bd6046c0.png " alt="">
+                                          <h5 class="modal-title pt-3 pb-1" id="exampleModalLabel">
+                                             Why Choose Coastal Tide?
+                                          </h5>
+                                          <p></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>🚀 Ready to Transform Your Business? 🚀</strong></span></span></span></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">At Coastal Tide, we're dedicated to driving your business growth to new heights. Whether you need to revitalise sales, expand market share, or enhance team performance, we offer tailored strategies to help you succeed.</span></span></span></p>
+                                          <p style="text-align:center"><strong><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Why Choose Coastal Tide?</span></span></span></strong></p>
+                                          <p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Proven Expertise:</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> With over 25 years of experience in Sales and Category Management, I’ve successfully driven sales revenues and market share increases in various industries.</span></span></span></p>
+                                          <p style="text-align:center">&nbsp;</p>
+                                          <p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Comprehensive Solutions:</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> From Sales Transformation and Operational Excellence to Team Cohesion, we provide holistic strategies designed for your specific needs.</span></span></span></p>
+                                          <p style="text-align:center">&nbsp;</p>
+                                          <p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Tailored Strategies:</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> We take the time to understand your business, its challenges, and aspirations, delivering customised, robust, and scalable growth strategies.</span></span></span></p>
+                                          <p style="text-align:center">&nbsp;</p>
+                                          <p style="text-align:center"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Proven Results:</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> Consistently delivering exceptional results, from increasing sales and market share to building high-performing teams and go-to-market strategies.</span></span></span></p>
+                                          <p style="text-align:center">&nbsp;</p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Start Your Success Journey Now!</strong> Don't miss the opportunity to elevate your business to the next level. Let’s discuss how Coastal Tide can help your business thrive.</span></span></span></p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">📞 </span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Contact Chris Silverwood for an Informal Chat:</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> 07522 582100</span></span></span></p>
+                                          <p>&nbsp;</p>
+                                          <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">#BusinessGrowth #SalesTransformation #OperationalExcellence #TeamEngagement #ChrisSilverwood #BusinessSuccess #ContactUs</span></span></span></p>
+                                          <p>&nbsp;</p>
+                                          <p></p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <h5 class="pt-2 pb-1">Ready to Transform Your Business? 🚀 </h5>
+                           <p>Why Choose Coastal Tide?</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=" justify-content-center d-flex">
+                  </div>
+               </div>
+               <div class="get-service position-relative">
+                  <div class="arrow-shape">
+                     <img class="shape-2" src="assets/img/decorator-shape-04 1.png" alt="decorator">
+                     <img class="shape-1" src="assets/img/decorator-shape-04 2.png" alt="decorator">
+                  </div>
+                  <a class="default-btn-2" type="button" style="background: #114b6e; color: #ffffff" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
+                  BOOK FREE CONSULT </a>
+               </div>
+            </div>
+         </section>
+
+         <!-- Slider Section -->
+         
+      </main>
+         <!-- footer Section -->
+         <footer class="main-footer">
+            <div class="footer-upper">
+               <div class="container">
+                  <div class="row">
+                     <div class="contact-info-block col-lg-4 col-md-6">
+                        <div class="inner">
+                           <i class="icon fa fa-phone-square"></i>
+                           <span class="sub-title">Call Anytime</span>
+                           <div class="text"><a href="tel:+44 (0) 776 883 9877">+44 (0) 776 883 9877</a></div>
+                        </div>
+                     </div>
+                     <div class="contact-info-block col-lg-4 col-md-6">
+                        <div class="inner">
+                           <i class="icon fa fa-envelope"></i>
+                           <span class="sub-title">Send Email</span>
+                           <div class="text"><a href="mailto:hello@bytestore.xyz">hello@bytestore.xyz</a></div>
+                        </div>
+                     </div>
+                     <div class="contact-info-block col-lg-4 col-md-6">
+                        <div class="inner">
+                           <i class="icon fa fa-map-marker"></i>
+                           <span class="sub-title">Address</span>
+                           <div class="text">Halpern House, 1-2 Hampshire Terrace,
+                            Portsmouth, PO1 2Q, UK</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Widgets Section -->
+            <div class="widgets-section">
+               <div class="container">
+                  <div class="row">
+                     <!-- Footer COlumn -->
+                     <div class="footer-column col-xl-5 col-lg-4 col-md-12 ">
+                        <div class="footer-widget about-widget">
+                           <div class="widget-content">
+                              <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+                              <div class="text">Welcome to our digital agency. We hope you will love our website and soon get some awesome services from us.</div>
+                              <ul class="social-icon-two">
+                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                 <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Footer COlumn -->
+                     <div class="footer-column col-xl-4 col-lg-4 col-md-6 ">
+                        <div class="widget links-widget">
+                           <h5 class="widget-title">Explore</h5>
+                           <div class="widget-content">
+                              <ul class="user-links two-column">
+                                 <li><a href="about.html">About</a></li>
+                                 <li><a href="terms-of-use.html">Terms of Use</a></li>
+                                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="widget newsletter-widget">
+                           <h5 class="widget-title">Newsletter</h5>
+                           <div class="widget-content">
+                              <div class="text">Subsrcibe our newsletter to get latest news.</div>
+                              <div class="subscribe-form">
+                                 <form method="post" action="">
+                                    <input type="hidden">                                            
+                                    <div class="form-group">
+                                       <input type="email" class="theme-btn btn-style-two"  name="email" class="email" value="" placeholder="Email Address" required="" autocomplete="off">
+                                    </div>
+                                    <div class="form-group">
+                                       <button type="submit" class="theme-btn btn-style-one"><span class="btn-title">Subscribe</span></button>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="copyright-text">
+                    <p class="mb-0 text-black address-details"> ©2024 All Rights Reserved, ICP. Design and Development by
+                        <a target="__blank" href="https://bytestore.xyz/" class="text-decoration">
+                        <span class="me-1">Timerni</span>
+                        <img src="assets/img/brand-logo.png">
+                        </a>
+                     </p>
+                  </div>
+                  
+               </div>
+            </div>
+         </footer>
+         
+         <!-- End footer Section -->
+                   <!-- Button trigger modal -->
+      <div class="calendar-modal modal fade" id="exampleModalCalendar" tabindex="-1" aria-labelledby="exampleModalCalendarLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered">
+           <div class="modal-content">
+             <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PonimvlXjeBYdLElA0JbbshqDfglAcjV6HuRTK0mHWQidmuECagcNU1of3t3ECJMW0dPB-nIs?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+           </div>
+         </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <form>
+                         <div class="mb-3">
+                             <label for="Name" class="form-label">Enter Your Name</label>
+                             <input type="text" class="form-control" id="Name" aria-describedby="Name">
+                         </div>
+                         <div class="mb-3">
+                             <label for="exampleInputEmail1" class="form-label">Email address</label>
+                             <input type="email" class="form-control" id="exampleInputEmail1"
+                                 aria-describedby="emailHelp">
+                         </div>
+                         <div class="mb-3">
+                             <label for="Country" class="form-label">Country Name</label>
+                             <input type="text" class="form-control" id="Country" aria-describedby="Country">
+                         </div>
+ 
+ 
+                         <button type="submit" class="theme-btn">Submit</button>
+                     </form>
+ 
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="theme-btn btn-style-one" data-bs-dismiss="modal">Close</button>
+                     <button type="button" class="theme-btn ">Save changes</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+   
+      <!-- JS here -->
+      <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+      <script src="assets/js/vendor/jquery.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/jquery.fancybox.js"></script>
+      <!-- <script src="assets/js/isotope.pkgd.min.js"></script> -->
+       <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+      <script src="assets/js/one-page-nav-min.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/jquery.meanmenu.min.js"></script>
+      <script src="assets/js/ajax-form.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/jquery.scrollUp.min.js"></script>
+      <script src="assets/js/backtotop.js"></script>
+      <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+      <script src="assets/js/main.js"></script>
+  
+   </body>
+</html>
