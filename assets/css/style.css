@@ -1617,3 +1617,6 @@ color: var(--bg-theme-color1);
 .portfolio-content p{
   padding-bottom: 10px;
 }
+.website-wrapper small {
+  font-size: .65em;
+}

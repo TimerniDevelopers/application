@@ -173,9 +173,13 @@
                                  </div>
                                </div>
                                <div class="row  mb-3">
-                                 <div class="col-12">
+                                 <div class="col">
                                      <label for="BusinessName">Business Name</label>
                                    <input type="text" class="form-control" id="BusinessName">
+                                 </div>
+                                 <div class="col">
+                                     <label for="linkedin">Linkedin</label>
+                                   <input type="text" class="form-control" id="linkedin">
                                  </div>
                                </div>
                                <div class="row  mb-3">
@@ -186,7 +190,9 @@
                                </div>
                                <div class="row  mb-3">
                                  <div class="col-12">
-                                     <h5 class="page-title pb-2">Which hosting (pcm) package would you like for your FREE website *</h5>
+                                     <h5 class="page-title1 py-3">Which hosting (pcm) package would you like for your FREE website *
+                                       <br><small>Read faq for details</small>
+                                     </h5>
                                      <div class="custom_radio-item">
                                          <label class="custom_radio">£ 29.99 - Basic - Hosting and Updates Only
                                              <input type="radio" checked="checked" name="radio">
@@ -206,7 +212,7 @@
                                <div class="row">
                                  <div class="col-12">
                                      <div class="text-center mb-3">
-                                       <a class="s-button" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">Claim my website</a>
+                                       <button class="s-button" type="submit">Claim my website</button>
                                      </div>
                                  </div>
                                </div>
@@ -719,7 +725,78 @@
       <div class="calendar-modal modal fade" id="exampleModalCalendar" tabindex="-1" aria-labelledby="exampleModalCalendarLabel" aria-hidden="true">
          <div class="modal-dialog modal-dialog-centered">
            <div class="modal-content">
-             <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PonimvlXjeBYdLElA0JbbshqDfglAcjV6HuRTK0mHWQidmuECagcNU1of3t3ECJMW0dPB-nIs?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+            <div class="website-wrapper">
+               <h2>Claim your FREE Website</h2>
+               <p class="pb-3">Leave your details below for a daily chance to claim a free website. </p>
+               <form>
+                   <div class="row mb-3">
+                       <div class="col">
+                           <label for="FirstName">First Name</label>
+                         <input type="text" class="form-control" id="FirstName" placeholder="Jhon">
+                       </div>
+                       <div class="col">
+                           <label for="Lastname">Last Name</label>
+                         <input type="text" class="form-control" id="Lastname" placeholder="Doe">
+                       </div>
+                     </div>
+                     <div class="row  mb-3">
+                       <div class="col">
+                           <label for="Email">Email*</label>
+                         <input type="email" class="form-control" id="Email" required placeholder="example@domain.com">
+                       </div>
+                       <div class="col">
+                           <label for="Phone">Phone</label>
+                         <input type="number" class="form-control">
+                       </div>
+                     </div>
+                     <div class="row  mb-3">
+                       <div class="col">
+                           <label for="BusinessName">Business Name</label>
+                         <input type="text" class="form-control" id="BusinessName">
+                       </div>
+                       <div class="col">
+                           <label for="linkedin">Linkedin</label>
+                         <input type="text" class="form-control" id="linkedin">
+                       </div>
+                     </div>
+                     <div class="row  mb-3">
+                       <div class="col-12">
+                           <label for="message">Tell us a little about your business</label>
+                           <textarea class="form-control" id="message" placeholder="Your Question or Comment"></textarea>
+                       </div>
+                     </div>
+                     <div class="row  mb-3">
+                       <div class="col-12">
+                           <h5 class="page-title1 py-3">Which hosting (pcm) package would you like for your FREE website *
+                             <br><small>Read faq for details</small>
+                           </h5>
+                           <div class="custom_radio-item">
+                               <label class="custom_radio">£ 29.99 - Basic - Hosting and Updates Only
+                                   <input type="radio" checked="checked" name="radio">
+                                   <span class="checkmark"></span>
+                                 </label>
+                                 <label class="custom_radio">£149.99 – Growth: This package includes hosting, plus one SEO-optimised blog post written and published on your website to increase your traffic, along with 3 hours of dedicated SEO support per month.
+                                   <input type="radio" name="radio">
+                                   <span class="checkmark"></span>
+                                 </label>
+                                 <label class="custom_radio">£249.99 – Accelerate: This package provides premium hosting, three SEO-optimised blog posts written and published on your website to boost your traffic, alongside 5 hours of dedicated monthly SEO support.
+                                   <input type="radio" name="radio">
+                                   <span class="checkmark"></span>
+                                 </label>
+                           </div>
+                       </div>
+                     </div>
+                     <div class="row">
+                       <div class="col-12">
+                           <div class="text-center mb-3">
+                              <button class="s-button" type="submit">Submit</button>
+                           </div>
+                       </div>
+                     </div>
+                   
+                 </form>
+           </div>
+             <!-- <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0PonimvlXjeBYdLElA0JbbshqDfglAcjV6HuRTK0mHWQidmuECagcNU1of3t3ECJMW0dPB-nIs?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe> -->
            </div>
          </div>
       </div>
@@ -745,15 +822,11 @@
                              <label for="Country" class="form-label">Country Name</label>
                              <input type="text" class="form-control" id="Country" aria-describedby="Country">
                          </div>
- 
- 
-                         <button type="submit" class="theme-btn">Submit</button>
+                         <div class="text-center">
+                            <button type="submit" class="theme-btn">Submit</button>
+                         </div>
                      </form>
  
-                 </div>
-                 <div class="modal-footer">
-                     <button type="button" class="theme-btn btn-style-one" data-bs-dismiss="modal">Close</button>
-                     <button type="button" class="theme-btn ">Save changes</button>
                  </div>
              </div>
          </div>
